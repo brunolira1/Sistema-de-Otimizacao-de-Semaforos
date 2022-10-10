@@ -1,10 +1,3 @@
-# TRABALHO FINAL DE CONCLUSÃO DE CURSO
-
-# TEMA: OTIMIZAÇÃO E AUTOMATIZAÇÃO DO SISTEMA DE CONTROLE DOS SINAIS DE TRÂNSITO
-
-INTEGRANTES: BRUNO LIRA, GUILHERME RANGEL, PAULO RESTAINO E VICTOR COUTO
-
-
 # INTRODUÇÃO
 
 Um dos maiores problemas das grandes cidades no mundo atual é a superlotação do fluxo de tráfego ao redor da cidade. Há uma quantidade extrema de veículos nas ruas e avenidas, o que causa um congestionamento gigante do trânsito da cidade. E um dos fatores que contribuem com o grande engarrafamento é a forma como os semáforos da cidade se comportam, muitas vezes de uma forma não inteligente.
