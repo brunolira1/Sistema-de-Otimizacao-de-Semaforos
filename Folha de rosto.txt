@@ -4,5 +4,7 @@ SMART AND OPTIMIZED TRAFFIC LIGHT CONTROL SYSTEM (sistema inteligente e otimizad
 
 Projeto apresentado no curso de Ciência de Dados e Inteligência Arificial da faculdade Ponfifícia Universidade Católica de São Paulo
 
+Professor - Orientador: André Luís Braga
+
 São Paulo
 2022
