@@ -1,0 +1,8 @@
+Integrantes: Bruno Lira, Guilherme Rangel, Paulo restaino e Victor Couto
+
+SMART AND OPTIMIZED TRAFFIC LIGHT CONTROL SYSTEM (sistema inteligente e otimizado para controle de sinais de trânsito)
+
+Projeto apresentado no curso de Ciência de Dados e Inteligência Arificial da faculdade Ponfifícia Universidade Católica de São Paulo
+
+São Paulo
+2022
