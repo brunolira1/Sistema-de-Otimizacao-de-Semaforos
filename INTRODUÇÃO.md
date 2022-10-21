@@ -1,4 +1,4 @@
-# INTRODUÇÃO
+# INTRODUÇÃO E CONTEXTUALIZAÇÃO DO TEMA
 
 Um dos maiores problemas das grandes cidades no mundo atual é a superlotação do fluxo de tráfego ao redor da cidade. Há uma quantidade extrema de veículos nas ruas e avenidas, o que causa um congestionamento gigante do trânsito da cidade. E um dos fatores que contribuem com o grande engarrafamento é a forma como os semáforos da cidade se comportam, muitas vezes de uma forma não inteligente.
 
