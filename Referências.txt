@@ -1,0 +1,13 @@
+[1]  Yusuf A’Isya Nur Aulia, Arifin Ajib Setyo, Zulkifli Fitri Yuli.  Recent development of smart traffic lights.
+     AES International Journal of Artificial Intelligence, (2021), 224-233, 10(1)
+
+[2] Tomar Ishu, Sreedevi Indu, Pandey Neeta.  State‐of‐Art Review of Traffic Light Synchronization for Intelligent Vehicles: Current Status, 
+Challenges, and Emerging Trends.  Electronics (Switzerland), (2022), 11(3)
+
+[3] Los Angeles synchronizes all traffic lights | ZDNET
+    https://www.zdnet.com/article/los-angeles-synchronizes-all-traffic-lights/
+
+[4] Janai Joel, Güney Fatma, Behl Aseem, Geiger Andreas.  Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art
+    Foundations and Trends® in Computer Graphics and Vision, (2020), 1-308, 12(1–3)
+
+
