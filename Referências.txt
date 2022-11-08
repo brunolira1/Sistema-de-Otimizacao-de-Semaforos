@@ -2,7 +2,7 @@
      AES International Journal of Artificial Intelligence, (2021), 224-233, 10(1)
 
 [2] Tomar Ishu, Sreedevi Indu, Pandey Neeta.  State‐of‐Art Review of Traffic Light Synchronization for Intelligent Vehicles: Current Status, 
-Challenges, and Emerging Trends.  Electronics (Switzerland), (2022), 11(3)
+    Challenges, and Emerging Trends.  Electronics (Switzerland), (2022), 11(3)
 
 [3] Los Angeles synchronizes all traffic lights | ZDNET
     https://www.zdnet.com/article/los-angeles-synchronizes-all-traffic-lights/
