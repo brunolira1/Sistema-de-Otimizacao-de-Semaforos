@@ -1,0 +1,87 @@
+Traffic-Light-Optimization-Control-System
+
+
+Traffic-Light-Optimization-Control-System-/ Capa.md
+
+{\Large TRABALHO FINAL DE CONCLUSÃO DE CURSO}
+
+PONTIFÍCIA UNIVERSIDADE CATÓLICA
+
+INTEGRANTES: BRUNO LIRA, GUILHERME RANGEL, PAULO RESTAINO E VICTOR COUTO
+
+
+{\Large  TEMA: OTIMIZAÇÃO E AUTOMATIZAÇÃO DO SISTEMA DE CONTROLE DOS SINAIS DE TRÂNSITO}
+ 
+
+SÃO PAULO
+2022
+
+
+Traffic-Light-Optimization-Control-System-/  Folha de rosto.txt
+
+Integrantes: Bruno Lira, Guilherme Rangel, Paulo restaino e Victor Couto
+
+SMART AND OPTIMIZED TRAFFIC LIGHT CONTROL SYSTEM (sistema inteligente e otimizado para controle de sinais de trânsito)
+
+Projeto apresentado no curso de Ciência de Dados e Inteligência Arificial da faculdade Ponfifícia Universidade Católica de São Paulo
+
+Professor - Orientador: André Luís Braga
+
+São Paulo
+2022
+
+
+Traffic-Light-Optimization-Control-System-/  Introdução e contextualização do tema.md
+
+{\Large INTRODUÇÃO E CONTEXTUALIZAÇÃO DO TEMA}
+
+Um dos maiores problemas das grandes cidades no mundo atual é a superlotação do fluxo de tráfego ao redor da cidade. Há uma quantidade extrema de veículos nas ruas e avenidas, o que causa um congestionamento gigante do trânsito da cidade. E um dos fatores que contribuem com o grande engarrafamento é a forma como os semáforos da cidade se comportam, muitas vezes de uma forma não inteligente.
+
+Então, o objetivo do nosso projeto é criar um sistema inteligente para controlar os sinais de trânsito de uma cidade. Esse sistema irá controlar o tempo em que cada semáforo alterna entre as fases verde / vermelho de forma que o fluxo de trânsito seja o mais otimizado possível na região. Dessa forma, possibilitando um trânsito mais justo e bem mais rentável.
+
+Neste sistema serão elaboradas técnicas de processamento de dados que serão extraídos a partir da criação de um simulador no qual irá simular vias de trânsito de um determinado local. Iremos inserir uma gama extensa de variáveis (comprimento e área do tráfego,largura da pista, densidade do trânsito...) nas quais serão features utilizadas pelo nosso sistema para atribuir um valor entre 1 e 5 referente ao nível do fluxo de trânsito que ocorre num determinado momento em certa via. Usaremos uma biblioteca do Python chamada Pytorch, para criação de uma rede neural, e então, treinaremos a mesma a partir de dados fornecidos pelo nosso simulador para que nossa rede consiga reconhecer a densidade de um trânsito em uma determinada via e fornecer os melhores valores para o semáforo dessa via transitar entre verde, amarelo e vermelho. 
+
+A ideia é definir um temporizador otimizado para o sistema de semáforos, no qual seguirá a lógica de manter um semáforo mais tempo verde e pouco tempo vermelho numa via em que há um trânsito elevado, em comparação a semáforos próximos que estão localizados em vias menores, com trânsito menos extenso.
+
+{\Large PESQUISAS REFERENTES AO TEMA}
+
+Pesquisas indicam que o grande congestionamento de trânsito em grandes cidades atrapalham não apenas o tempo hábil de deslocamento dos cidadãos, como também interfere negativamente na economia das cidades como um todo. Em 2018 na cidade de Boston (Etados Unidos) por exemplo, estima-se que o congestionamento da cidade causou para os motoristas uma perda de 164 horas presos no trânsito, e consequentemente isso causou uma perda econômica de 4,1 bilhões de dólares para a cidade. Além disso também há estudos que apontam que o extenso congestionamento afetam psicológicamente os motoristas, deixando-os mais estressados no dia a dia e com comportamentos mais agressivos.
+
+Um dos principais fatores que contribuem para esse cenário é o fato de que a maioria dos semáforos espalhados pelo mundo ainda utilizam o método do ciclo fixo. Neste método é calculado manualmente e previamente um tempo fixo para cada semáforo transitar entre os modos verde e vermelho. Porém, esse método é considerado ineficiente e contribui para a superlotação no fluxo de trânsito das grandes cidades. Passou-se a perceber que era necessária uma mudança na forma que os semáforos de trânsito atuam, e a partir disso começou a haver vários estudos para a criação de semáforos que consigam agir de forma inteligente, visando a otimização do fluxo de trânsito ao redor das grandes cidades.
+
+
+Traffic-Light-Optimization-Control-System-/Referências.txt
+
+[1]  Yusuf A’Isya Nur Aulia, Arifin Ajib Setyo, Zulkifli Fitri Yuli.  Recent development of smart traffic lights.
+     AES International Journal of Artificial Intelligence, (2021), 224-233, 10(1)
+
+[2] Tomar Ishu, Sreedevi Indu, Pandey Neeta.  State‐of‐Art Review of Traffic Light Synchronization for Intelligent Vehicles: Current Status, 
+    Challenges, and Emerging Trends.  Electronics (Switzerland), (2022), 11(3)
+
+[3] Los Angeles synchronizes all traffic lights | ZDNET
+    https://www.zdnet.com/article/los-angeles-synchronizes-all-traffic-lights/
+
+[4] Janai Joel, Güney Fatma, Behl Aseem, Geiger Andreas.  Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art
+    Foundations and Trends® in Computer Graphics and Vision, (2020), 1-308, 12(1–3)
+
+[5] Zibo Ma ,Tongchao Cui ,Wenxing Deng, Fengyao Jiang and Liguo Zhang. Adaptive Optimization of Traffic Signal Timing via Deep Reinforcement Learning.  Research Article | Open Access
+Volume 2021 | Article ID 6616702 | https://doi.org/10.1155/2021/6616702
+
+
+Traffic-Light-Optimization-Control-System-/  Metodologia.md
+
+{\Large INTRODUÇÃO AO CAPÍTULO DE METODOLOGIA}
+
+Como já dito no capítulo de introdução do tema, nosso objetivo é criar um sistema inteligente de controle de semáforos, que saiba otimizar o tempo de alternância entre as fases verde/amarelo/vermelho de cada semáforo, de forma que o fluxo de trânsito de uma certa região seja o mais ideal possível. Nesse capítulo de metodologia iremos demonstrar de maneira aprofundada o passo a passo feito para construção desse sistema.
+
+
+{\Large TIPOLOGIA DE PESQUISA: }
+
+
+{\Large COLETA DE DADOS:}
+
+
+
+{\Large TRATAMENTO DOS DADOS:}
+
+
