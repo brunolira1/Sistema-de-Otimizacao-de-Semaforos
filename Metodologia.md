@@ -12,3 +12,5 @@ Nesse capítulo de metodologia iremos demonstrar de maneira aprofundada o passo 
 ## COLETA DE DADOS:
 
 ## TRATAMENTO DOS DADOS:
+
+## ANÁLISE DOS DADOS:
