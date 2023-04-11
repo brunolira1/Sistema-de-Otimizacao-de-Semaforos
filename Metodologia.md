@@ -5,6 +5,9 @@ entre as fases verde/amarelo/vermelho de cada semáforo, de forma que o fluxo de
 Nesse capítulo de metodologia iremos demonstrar de maneira aprofundada o passo a passo feito para construção desse sistema.
 
 ## TIPOLOGIA DE PESQUISA: 
+--Objetivo da pesquisa: tipo exploratório
+--Fonte de dados: tipo laboratorial
+--Procedimentos: tipo experimental
 
 ## COLETA DE DADOS:
 
