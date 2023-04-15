@@ -13,7 +13,7 @@ Levando em conta os objetivos de pesquisa, nossa abordagem é do tipo explorató
 
 Em relação á fonte de dados, nossa abordagem é do tipo laboratorial. Pois estamos coletando nossos dados através de um simulador de trânsito (no qual é um ambiente controlado) que gera de forma randômica os dados que precisamos. Apesar de estarmos também utilizando imagens de trânsito reais da internet para provar que nosso modelo também consegue trabalhar em cima dessas imagens.
 
-Por fim, levando em conta os procedimentos de pesquisa, desenvolvimento e conclusões que obtivemos, nossa abordagem é do tipo experimental. Pois o objetivo do nosso trabalho se baseia em treinar e otimizar um modelo de sistema inteligente de semáforos. E para alcançar essa otimização nós nescessitamos fazer experimentos em cima dos dados que nosso simulador nos retorna, e analisar quais são os melhores valores possíveis para as fases verde/vermlho dos semáforos de forma que o trânsitode sua rua fique o mais flexibilizado possível.
+Por fim, levando em conta os procedimentos de pesquisa, desenvolvimento e conclusões que obtivemos, nossa abordagem é do tipo experimental, pois o objetivo do nosso trabalho se baseia em treinar e otimizar um modelo de sistema inteligente de semáforos. E para alcançar essa otimização nós necessitamos fazer experimentos em cima dos dados que nosso simulador nos retorna, e analisar quais são os melhores valores possíveis para as fases verde/vermelho dos semáforos, de forma que o trânsito de sua rua fique o mais flexibilizado possível.
 
 ## COLETA DE DADOS:
 
