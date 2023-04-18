@@ -9,7 +9,7 @@ Nesse tópico especificaremos os métodos que utilizamos para desenvolver nosso 
 
 Nossa abordagem é do tipo quantitativa, pois estamos fazendo uma análise objetiva, com dados numéricos e gráficos, para identificar os níveis de congestionamento presentes numa rua/avenida em determinado instante. 
 
-Levando em conta os objetivos de pesquisa, nossa abordagem é do tipo exploratório, pois nossa pesquisa se baseia num tema pouco explorado até agora. Há muitas regiões ao redor do mundo que nunca implementaram sistemas de semáforos inteligentes em suas cidades, tampouco pesquisaram profundamente sobre o assunto.
+Levando em conta os objetivos de pesquisa, nossa abordagem é do tipo exploratório, pois nossa pesquisa se baseia num tema pouco explorado a nível global até o momento. Há muitas regiões ao redor do mundo que nunca implementaram sistemas de semáforos inteligentes em suas cidades, tampouco pesquisaram profundamente sobre o assunto.
 
 Em relação á fonte de dados, nossa abordagem é do tipo laboratorial. Pois estamos coletando nossos dados através de um simulador de trânsito (no qual é um ambiente controlado) que gera de forma randômica os dados que precisamos. Apesar de estarmos também utilizando imagens de trânsito reais da internet para provar que nosso modelo também consegue trabalhar em cima dessas imagens.
 
