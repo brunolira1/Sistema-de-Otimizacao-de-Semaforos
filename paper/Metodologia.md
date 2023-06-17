@@ -7,13 +7,13 @@ Nesse capítulo de metodologia iremos demonstrar de maneira aprofundada o passo 
 ## TIPOLOGIA DE PESQUISA: 
 Nesse tópico especificaremos os métodos que utilizamos para desenvolver nosso projeto, em termos de abordagem, pesquisa, fonte de dados e procedimentos.
 
-Nossa abordagem é do tipo quantitativa, pois estamos fazendo uma análise objetiva, com dados numéricos e gráficos, para identificar os níveis de congestionamento presentes numa rua/avenida em determinado instante. 
+A abordagem do projeto é do tipo quantitativa, pois realizamos uma análise objetiva com dados numéricos e gráficos para identificar os níveis de congestionamento presentes em determinada rua/avenida em um determinado instante.
 
-Levando em conta os objetivos de pesquisa, nossa abordagem é do tipo exploratório, pois nossa pesquisa se baseia num tema pouco explorado a nível global até o momento. Há muitas regiões ao redor do mundo que nunca implementaram sistemas de semáforos inteligentes em suas cidades, tampouco relataram pesquisas profundas sobre o assunto.
+Levando em conta os objetivos de pesquisa, nossa abordagem é do tipo exploratória, pois a pesquisa se baseia em um tema pouco explorado a nível global até o momento. Há muitas regiões ao redor do mundo que nunca implementaram sistemas de semáforos inteligentes em suas cidades, tampouco relataram pesquisas profundas sobre o assunto.
 
-Em relação á fonte de dados, nossa abordagem é do tipo laboratorial. Pois estamos coletando nossos dados através de um simulador de trânsito (no qual é um ambiente controlado) que gera de forma randômica os dados que precisamos. Apesar de estarmos também utilizando imagens de trânsito reais da internet para provar que nosso modelo também consegue trabalhar em cima dessas imagens.
+Em relação a fonte de dados a abordagem é do tipo laboratorial, pois estamos coletando nossos dados através de um simulador de trânsito (ambiente controlado) onde, apesar de determinados aspectos a respeito de sua estrutura serem definidos, as ações dos veículos são randômicas, a fim de aproximar o modelo simulado da realidade.
 
-Por fim, levando em conta os procedimentos de pesquisa, desenvolvimento e conclusões que obtivemos, nossa abordagem é do tipo experimental, pois o objetivo do nosso trabalho se baseia em treinar e otimizar um modelo de sistema inteligente de semáforos. E para alcançar essa otimização nós necessitamos fazer experimentos em cima dos dados que nosso simulador nos retorna, e analisar quais são os melhores valores possíveis para as fases verde/vermelho dos semáforos, de forma que o trânsito de sua rua fique o mais flexibilizado possível.
+Por fim, levando em conta os procedimentos de pesquisa, desenvolvimento e conclusões que obtivemos, nossa abordagem é do tipo experimental, onde o objetivo de nosso trabalho se baseia em treinar e otimizar um modelo de sistema inteligente de semáforos de modo que, para alcançar resultados otimizados, é necessário realizar experimentos diversos e, com os dados produzidos pelas experimentações, influenciar, de forma positiva ou negativa, ações a serem realizadas.
 
 ## COLETA DE DADOS:
 
