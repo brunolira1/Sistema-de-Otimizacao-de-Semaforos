@@ -25,6 +25,8 @@ No entanto, neste projeto optamos por utilizar apenas carros e duas métricas pr
 
 Apesar de não utilizarmos todas as métricas disponíveis no SUMO, a ferramenta apresentou diversas vantagens para a simulação de tráfego urbano em nosso projeto. Uma dessas vantagens é a sua API Python que permite a integração com outras ferramentas e o desenvolvimento de algoritmos de aprendizado de máquina personalizados. Com a API Python do SUMO é possível criar scripts personalizados para a coleta de dados e avaliação do desempenho do sistema de controle de semáforos, como será apresentado a frente.
 
+## TRATAMENTO E ANÁLISE DE DADOS:
+
 Nossa simulação consiste em um cenário urbano formado por quatro cruzamentos interligados (S1, S2, S3 e S4). Os cruzamentos são formados por duas vias horizontais de três faixas cada (A e C) e duas vias verticais de duas faixas cada (B e D). Esse tipo de configuração é bastante comum em áreas urbanas onde o tráfego pode se tornar bastante intenso durante os horários de pico. 
 
 A escolha desse tipo de configuração para nossa simulação se deve ao fato de que ela apresenta desafios interessantes para o controle de semáforos. Com várias ruas convergindo em cada cruzamento, é preciso ajustar os tempos de sinalização de forma adequada para garantir a fluidez do tráfego e evitar congestionamentos.
