@@ -78,31 +78,17 @@ O estado (S) é uma representação do ambiente em um determinado momento, no ca
 
 A recompensa (R) é um valor numérico que indica a qualidade/desempenho de uma ação tomada pelo agente em um determinado momento (t) Seu valor consiste pelo inteiro mais próximo da adição de 10 ao tempo total de espera dos veículos (ttev) dividido pela quantidade total de veículos parados (qvp) vezes (-1) se (qvp) for maior que 0, senão 0.
 
-Para o cálculo da ação (A), o tempo de duração dos estágios do semáforo, introduziremos uma nova variável em nosso modelo: o épsilon (\(\epsilon\)). Seu valor é utilizado para controlar a taxa de exploração do agente durante o processo de escolha de ações. Épsilon é um parâmetro que determina a probabilidade de o agente realizar uma ação aleatória ao invés da escolha de uma ação de maior qualidade testada anteriormente. Inicialmente, definiremos seu valor como 0,7 e, a cada episódio, reduziremos seu valor gradualmente em 0,5%, permitindo que o agente confie mais nas estimativas presentes em seu banco de dados. Por fim, o valor da ação é definido da seguinte forma:
+Para o cálculo da ação (A), o tempo de duração dos estágios do semáforo, introduziremos uma nova variável em nosso modelo: o épsilon (ε). Seu valor é utilizado para controlar a taxa de exploração do agente durante o processo de escolha de ações. Épsilon é um parâmetro que determina a probabilidade de o agente realizar uma ação aleatória ao invés da escolha de uma ação de maior qualidade testada anteriormente. Inicialmente, definiremos seu valor como 0,7 e, a cada episódio, reduziremos seu valor gradualmente em 0,5%, permitindo que o agente confie mais nas estimativas presentes em seu banco de dados. Por fim, o valor da ação é definido da seguinte forma:
 
-1. Se o valor de épsilon (\(\epsilon\)) for maior que um valor aleatório (X) ou o estado (S) não estiver sido inicializado no banco de resultados, é escolhida uma ação aleatória entre as possíveis (15 a 90 segundos de tempo de esperado).
+1. Se o valor de épsilon (ε) for maior que um valor aleatório (X) ou o estado (S) não estiver sido inicializado no banco de resultados, é escolhida uma ação aleatória entre as possíveis (15 a 90 segundos de tempo de esperado).
 2. Senão, é escolhido o tempo de duração com melhor qualidade testado anteriormente.
 
 
-\begin{equation}
-S = \left\lfloor\frac{qvp}{5}\right\rceil
-\end{equation}
+{equação 1}
 
-\begin{equation}
-R_{t} = \begin{cases*}
-  \left\lfloor\frac{ttev}{qvp} \times -1 +  10\right\rceil, & se \(qvp > 0\),\\
-  0,                    & caso contrário.
-\end{cases*}
-\end{equation}
+{equação 2}
 
-\begin{equation}
-A_{t} = \begin{cases*}
-  \text{rand}\;A, & se \(X < \epsilon \mid s\;\not\in\;Q*\),\\
-  \underset{s}{\text{max}\;Q(s)},                    & caso contrário.
-\end{cases*}
-\end{equation}
-
-\vspace{0.5cm}
+{equação 3}
 
 De forma simplificada, nosso modelo consiste em uma comunicação de mão dupla entre o agente (modelo definidor de tempos) e o ambiente (semáforos):
 
@@ -114,12 +100,8 @@ A final de cada ação realizada no contexto do aprendizado por reforço é real
 
 Durante o teste o agente interage com o ambiente tomando ações com base na política de decisão estabelecida. Após realizar uma ação e observar o próximo estado e a recompensa recebida, o agente utiliza essas informações para atualizar o valor Q correspondente à ação tomada no estado anterior. Ações que resultaram em menor quantidade de carros parados resultam em melhores valores Q.
 
-O cálculo do valor Q é realizado utilizando uma fórmula que combina a taxa de aprendizado \(\alpha\) com a recompensa imediata e o valor Q estimado do próximo estado, ponderada pelo fator de desconto \(\gamma\). O fator de desconto é um parâmetro que indica a importância relativa das recompensas imediatas em comparação com as recompensas futuras.
+O cálculo do valor Q é realizado utilizando uma fórmula que combina a taxa de aprendizado α (alpha) com a recompensa imediata e o valor Q estimado do próximo estado, ponderada pelo fator de desconto γ (gamma). O fator de desconto é um parâmetro que indica a importância relativa das recompensas imediatas em comparação com as recompensas futuras.
 
 Inicialmente, todos os valores Q são definidos como 0. A atualização do valor Q é realizada constantemente ao longo dos testes, permitindo ao agente refinar suas estimativas e melhorar a qualidade das ações tomadas. Conforme o agente continua a interagir com o ambiente e coletar mais experiências, os valores Q se aproximam dos valores ótimos, refletindo a ação que leva à maior recompensa esperada em cada estado.
 
-\begin{equation}
-Q(S,\;A_t) = Q(S,\;A_t) + \alpha [R_{t+1} + \gamma\;max_a\;Q(S_{t+1},\;A_t) - Q(S,\;A_t)]
-\end{equation}
-
-
+{equação 4}
