@@ -1,15 +1,115 @@
-[1]  Yusuf A’Isya Nur Aulia, Arifin Ajib Setyo, Zulkifli Fitri Yuli.  Recent development of smart traffic lights.
-     AES International Journal of Artificial Intelligence, (2021), 224-233, 10(1)
+[1] Dex R. ALEKO and Soufiene Djahel. An efficient adaptive traffic light control system for
+urban road traffic congestion reduction in smart cities. Information, 11(2), 2020. https:
+//doi.org/10.3390/info11020119.
 
-[2] Tomar Ishu, Sreedevi Indu, Pandey Neeta.  State‐of‐Art Review of Traffic Light Synchronization for Intelligent Vehicles: Current Status, 
-    Challenges, and Emerging Trends.  Electronics (Switzerland), (2022), 11(3)
+[2] Marina Barbosa. Populac ̧  ̃ao dos grandes centros perde em m ́edia 21 dias do ano no
+trˆansito, aponta CNDL / SPC Brasil, 2022. Available at https://site.cndl.org.br/
+populacao-dos-grandes-centros-perde-em-media-21-dias-do-ano-no-transito-aponta
 
-[3] Los Angeles synchronizes all traffic lights | ZDNET
-    https://www.zdnet.com/article/los-angeles-synchronizes-all-traffic-lights/
+[3] Abdelkader Chabchoub, Ali Hamouda, Saleh Al-Ahmadi, and Adnen Cherif. Intelligent
+traffic light controller using fuzzy logic and image processing. International Journal of
+Advanced Computer Science and Applications, 12(4), 2021. http://dx.doi.org/10.
+14569/IJACSA.2021.0120450.
 
-[4] Janai Joel, Güney Fatma, Behl Aseem, Geiger Andreas.  Computer Vision for Autonomous Vehicles: Problems, Datasets and State of the Art
-    Foundations and Trends® in Computer Graphics and Vision, (2020), 1-308, 12(1–3)
+[4] Bernardo Coutinho, Fernando Matsumoto, Ariel Guerreiro, Eduardo Eiras, and Pedro
+Rosa. Workshop-de-Aprendizado-por-Reforco, 2021. Available at https://github.
+com/turing-usp/Workshop-de-Aprendizado-por-Reforco.
 
-[5] Zibo Ma ,Tongchao Cui ,Wenxing Deng, Fengyao Jiang and Liguo Zhang. Adaptive Optimization of Traffic Signal Timing via Deep Reinforcement Learning.  Research Article | Open Access
-Volume 2021 | Article ID 6616702 | https://doi.org/10.1155/2021/6616702
+[5] Luis Cruz-Piris, Diego Rivera, Susel Fernandez, and Ivan Marsa-Maestre. Optimized sen-
+sor network and multi-agent decision support for smart traffic light management. Sensors,
+18(2), 2018. https://doi.org/10.3390/s18020435.
+
+[6] Professor Rog ́erio Nascimento da Silva de Jesus. Entenda mais sobre a Metodolo-
+gia do TCC, veja como fazer e os tipos existentes, 2019. Available at https://
+projetoacademico.com.br/metodologia-tcc/.
+
+[7] David L. Wiesenthal Dwight A. Hennessy. Traffic congestion, driver stress, and dri-
+ver aggression. Department of Psychology and LaMarsh Centre for Research on Vi-
+olence and ConflictResolution, 25, 10 1999. https://doi.org/10.1002/(SICI)
+1098-2337(1999)25:6<409::AID-AB2>3.0.CO;2-0.
+
+[8] Tyler Falk. Los Angeles synchronizes all traffic lights, 2013. Available at https://www.
+zdnet.com/article/los-angeles-synchronizes-all-traffic-lights/.
+
+[9] Geraldine P. Felicio, Lorelie C. Grepo, Vincent F. Reyes, and Lancelot C. Yupingkun.
+Traffic light displays and driver behaviors: A case study. Procedia Manufacturing,
+3:3266–3273, 2015. https://doi.org/10.1016/j.promfg.2015.07.879.
+
+[10] Yevhen Fornalchyk, Ivan Kernytskyy, Oleh Hrytsun, and Yuriy Royko. Choice of the
+rational regimes of traffic light control for traffic and pedestrian flows. Scientific Review
+Engineering and Environmental Sciences (SREES), 30(1):38–50, Mar. 2021. https://
+doi.org/10.22630/PNIKS.2021.30.1.4.
+
+[11] Ziyue Li, Qinghua Zeng, Yuchao Liu, Jianye Liu, and Lin Li. An improved traffic lights
+recognition algorithm for autonomous driving in complex scenarios. International Journal
+of Distributed Sensor Networks, 17(5):15501477211018374, 2021. https://doi.org/
+10.1177/15501477211018374.
+
+[12] Xiaoyuan Liang, Xunsheng Du, Guiling Wang, and Zhu Han. A deep reinforcement lear-
+ning network for traffic light cycle control. IEEE Transactions on Vehicular Technology,
+68(2):1243–1253, feb 2019. https://doi.org/10.48550/arXiv.1803.11115.
+
+[13] Mayara Lima, Marcela de Alcantara, Amauri Rosenthal, and Rosires Deliza. Effectiveness
+of traffic light system on brazilian consumers perception of food healthfulness. Food Sci-
+ence and Human Wellness, 8(4):368–374, 2019. https://doi.org/10.1016/j.fshw.
+2019.10.001.
+
+[14] Zibo Ma, Tongchao Cui, Wenxing Deng, Fengyao Jiang, and Liguo Zhang. Adaptive
+optimization of traffic signal timing via deep reinforcement learning. Journal of Advanced
+Transportation, 2021:1–14, 11 2021. https://doi.org/10.1155/2021/6616702.
+
+[15] Andrew McFarland. Clearing the Air: A Proposal for a Congestion User Fee for
+the City of Boston, 2018. Available at https://www.proquest.com/openview/
+915628560aba47bdf8b33bdc13ed26a5/1?pq-origsite=gscholar&cbl=18750&
+diss=y.
+
+[16] Sergio Nesmachnow, Renzo Massobrio, Efra ́ın Arreche, Christine Mumford, Ana Caro-
+lina Olivera, Pablo Javier Vidal, and Andrei Tchernykh. Traffic lights synchronization for
+bus rapid transit using a parallel evolutionary algorithm. International Journal of Trans-
+portation Science and Technology, 8(1):53–67, 2019. https://doi.org/10.1016/j.
+ijtst.2018.10.002.
+
+[17] Sin-Chun Ng and Chok-Pang Kwok. An intelligent traffic light system using object de-
+tection and evolutionary algorithm for alleviating traffic congestion in hong kong. In-
+ternational Journal of Computational Intelligence Systems, 13:802–809, 2020. https:
+//doi.org/10.2991/ijcis.d.200522.001.
+
+[18] Heriberto P ́erez-Acebo, Xabier Otxoa-Mu ̃noz, Mikel Marquina-Llaguno, and Hern ́an
+Gonzalo-Orden. Analysis of the efficiency of traffic lights turning red in case of ex-
+ceeding speed limit. Ingenier ́ıa e Investigaci ́on, 41(1):e86047, Jan. 2021. https:
+//doi.org/10.15446/ing.investig.v41n1.86047.
+
+[19] Zaman Ramadhan, Rasha Salman, Bahaa Kareem Mohammed, and Ali Alwaily. Design
+and implement a smart traffic light controlled by internet of things. Periodicals of En-
+gineering and Natural Sciences (PEN), 9:542–548, 10 2021. http://dx.doi.org/10.
+21533/pen.v9i4.2351.
+
+[20] Rajendran Sathiyaraj and A. Bharathi. An efficient intelligent traffic light control and
+deviation system for traffic congestion avoidance using multi-agent system. Transport,
+35:1–9, 09 2019. https://doi.org/10.3846/transport.2019.11115.
+[21] T.J. Sejnowski. A Revoluc ̧  ̃ao do Aprendizado Profundo. Alta Books, 2020. https:
+//books.google.com.br/books?id=5HHJDwAAQBAJ.
+
+[22] Ishu Tomar, Indu Sreedevi, and Neeta Pandey. State-of-art review of traffic light synchro-
+nization for intelligent vehicles: Current status, challenges, and emerging trends. Electro-
+nics, 11(3), 2022. https://doi.org/10.3390/electronics11030465.
+
+[23] Dr. K Wagh, Ashish Chauhan, Shraddha Bhandari, Aniruddha Langhe, and Nikhil
+Pawar. Dynamic traffic light optimization and control system. International Jour-
+nal of Future Generation Communication and Networking, pages 472–481, 01 2020.
+Available at https://www.researchgate.net/publication/347902387_Dynamic_
+Traffic_Light_Optimization_and_Control_System.
+
+[24] Daniel Wright and Philippe Chouinard. Effects of multitasking and intention-behaviour
+consistency when facing yellow traffic light uncertainty. Attention, Perception, & Psy-
+chophysics, 81, 06 2019. https://doi.org/10.3758/s13414-019-01766-9.
+
+[25] Kento Yabuuchi, Masahiro Hirano, Taku Senoo, Norimasa Kishi, and Masatoshi Ishikawa.
+Real-time traffic light detection with frequency patterns using a high-speed camera. Sen-
+sors, 20(14), 2020. https://doi.org/10.3390/s20144035.
+
+[26] A’isya Yusuf, Ajib Arifin, and F.Y. Zulkifli. Recent development of smart traffic lights.
+IAES International Journal of Artificial Intelligence (IJ-AI), 10:224, 03 2021. http://
+doi.org/10.11591/ijai.v10.i1.pp224-233.
+
 
